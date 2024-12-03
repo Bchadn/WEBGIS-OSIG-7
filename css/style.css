@@ -1,0 +1,38 @@
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
+.leaflet-container {
+  cursor: crosshair;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+  background-color: rgb(193, 205, 186);
+}
+
+th,
+td {
+  padding: 0px 10px 0px 10px t r b t;
+  border: 0.5px solid grey;
+}
+.table-container {
+  max-height: 300px; /* Tentukan tinggi maksimal sesuai kebutuhan */
+  overflow-y: auto; /* Aktifkan scroll vertikal */
+  overflow-x: hidden; /* Sembunyikan scroll horizontal jika tidak diperlukan */
+}
+
